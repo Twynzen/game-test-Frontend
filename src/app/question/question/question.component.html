@@ -1,0 +1,27 @@
+<!-- HTML -->
+
+<div class="container mt-5">
+    <h1>Pregunta aleatoria</h1>
+    <p>¿Cuál es el nombre de la capital de Francia?</p>
+    <div class="form-group">
+        <input type="radio" name="capital" (click)="dead(1)" value="1" id="option1">
+        <label for="option1">
+          <img [src]="!dead1 ? '../assets/icons/human1.svg' : '../assets/icons/skull.svg'"alt="Opción 1">
+          <p>París</p>
+        </label>
+        <br>
+        <input type="radio" name="capital" (click)="dead(2)" value="2" id="option2">
+        <label for="option2">
+          <img [src]="!dead2 ? '../assets/icons/human2.svg' : '../assets/icons/skull.svg'"alt="Opción 2">
+          <p>Londres</p>
+        </label>
+        <br>
+        <input type="radio" name="capital" (click)="dead(3)" value="3" id="option3">
+        <label for="option3">
+          <img [src]="!dead3 ? '../assets/icons/human3.svg' : '../assets/icons/skull.svg'"alt="Opción 3">
+          <p>Roma</p>
+        </label>
+    </div>
+    <br>
+    <button type="button" class="btn btn-primary">Enviar respuesta</button>
+</div>
