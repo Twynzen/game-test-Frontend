@@ -4,18 +4,22 @@
 
 h1 {
     text-align: center;
+    color: #fff;
 }
 
 p {
     font-size: 18px;
     text-align: center;
     margin-bottom: 30px;
+    color: #fff;
+
 }
 
 .form-group {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    margin-left: 17%;
 }
 
 .game-input {
@@ -72,3 +76,18 @@ input[type="radio"]:checked+label img {
     box-shadow: 0 0 10px #333;
     transform: scale(1.1);
 }
+
+ .space-game-button{
+    font-family: "SF UI Display", sans-serif;
+    background: linear-gradient(to right, #000000, #0052d4);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    left: 33%;
+    position: relative;
+  }
+
+  .space-game-button:hover {
+    transform: scale(1.4);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.06);
+  }
