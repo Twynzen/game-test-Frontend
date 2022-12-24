@@ -1,0 +1,47 @@
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('../../../assets/fonts/static/Exo2-Regular.ttf') format('ttf');
+
+  font-weight: normal;
+  font-style: normal;
+}
+form {
+  margin: 50px auto;
+  width: 50%;
+
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom, #b8d1f3 0%, #b8d1f3 40%, #fff 40%, #fff 100%);
+  border-radius: 20px;
+
+}
+
+form label {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-family: 'Exo 2', sans-serif;
+}
+
+form input,
+form textarea,
+form select {
+  /* Añade un borde redondeado */
+  border-radius: 10px;
+
+  /* Añade una sombra a los inputs */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  /* Añade una fuente futurista */
+  font-family: 'Exo 2', sans-serif;
+}
+
+form button {
+  /* Añade un borde redondeado */
+  border-radius: 10px;
+
+  /* Añade una sombra a los botones */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  /* Añade una fuente futurista */
+  font-family: 'Exo 2', sans-serif;
+}
