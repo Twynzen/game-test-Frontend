@@ -1,0 +1,12 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dibuja el cuerpo del stickman -->
+  <line x1="100" y1="50" x2="100" y2="150" stroke="#000000" stroke-width="5" />
+  <!-- Dibuja los brazos del stickman -->
+  <line x1="100" y1="100" x2="75" y2="75" stroke="#000000" stroke-width="5" />
+  <line x1="100" y1="100" x2="125" y2="75" stroke="#000000" stroke-width="5" />
+  <!-- Dibuja las piernas del stickman -->
+  <line x1="100" y1="150" x2="75" y2="175" stroke="#000000" stroke-width="5" />
+  <line x1="100" y1="150" x2="125" y2="175" stroke="#000000" stroke-width="5" />
+  <!-- Dibuja la cabeza del stickman -->
+  <circle cx="100" cy="50" r="25" fill="#FFFFFF" stroke="#000000" stroke-width="5" />
+</svg>
